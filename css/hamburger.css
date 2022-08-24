@@ -1,5 +1,5 @@
-.hamburger{
-    padding:1rem;
+.hamburger {
+    padding: 1rem;
     height: 14vh;
     width: rem;
     border-radius: 50%;
@@ -8,37 +8,38 @@
     position: absolute;
     top: 1.2rem;
     left: 2rem;
-  }
-  .hamburger .line{
+}
+
+.hamburger .line {
     width: 45px;
     height: 5px;
-    background-color: #c5cbcc;
+    background-color: #010e10;
     display: block;
     margin: 8px auto;
-    
     transition: all 0.3s ease-in-out;
-  }
-  
-  .hamburger:hover{
+}
+
+.hamburger:hover {
     cursor: pointer;
-  }
-  
-  /* ONE */
-  
-  #hamburger-1.is-active .line:nth-child(2){
+}
+
+
+/* ONE */
+
+#hamburger-1.is-active .line:nth-child(2) {
     opacity: 0;
-  }
-  
-  #hamburger-1.is-active .line:nth-child(1){
+}
+
+#hamburger-1.is-active .line:nth-child(1) {
     -webkit-transform: translateY(13px) rotate(45deg);
     -ms-transform: translateY(13px) rotate(45deg);
     -o-transform: translateY(13px) rotate(45deg);
     transform: translateY(13px) rotate(45deg);
-  }
-  
-  #hamburger-1.is-active .line:nth-child(3){
+}
+
+#hamburger-1.is-active .line:nth-child(3) {
     -webkit-transform: translateY(-13px) rotate(-45deg);
     -ms-transform: translateY(-13px) rotate(-45deg);
     -o-transform: translateY(-13px) rotate(-45deg);
     transform: translateY(-13px) rotate(-45deg);
-  }
+}
